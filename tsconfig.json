@@ -12,11 +12,12 @@
       "*": ["./src/*"]
     },
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "types": ["react/next", "react-dom/next"],
   },
   "ts-node": {
     "compilerOptions": {
-      "module": "CommonJS"
+      "module": "CommonJS",
     }
   }
 }
